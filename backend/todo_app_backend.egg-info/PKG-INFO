@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: todo-app-backend
+Version: 0.1.0
+Summary: Backend for the To-Do List application.
+Author-email: Cline <cline@example.com>
+Requires-Python: >=3.8
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: sqlalchemy[asyncio]
+Requires-Dist: aiosqlite
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
